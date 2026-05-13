@@ -34,6 +34,7 @@
             lblResultado = new Label();
             btnOctal = new Button();
             btnHexadecimal = new Button();
+            btnTodas = new Button();
             SuspendLayout();
             // 
             // btnBinario
@@ -89,11 +90,22 @@
             btnHexadecimal.UseVisualStyleBackColor = true;
             btnHexadecimal.Click += btnHexadecimal_Click;
             // 
+            // btnTodas
+            // 
+            btnTodas.Location = new Point(512, 108);
+            btnTodas.Name = "btnTodas";
+            btnTodas.Size = new Size(142, 34);
+            btnTodas.TabIndex = 6;
+            btnTodas.Text = "Todas las bases";
+            btnTodas.UseVisualStyleBackColor = true;
+            btnTodas.Click += btnTodas_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnTodas);
             Controls.Add(btnHexadecimal);
             Controls.Add(btnOctal);
             Controls.Add(lblResultado);
@@ -114,5 +126,6 @@
         private Label lblResultado;
         private Button btnOctal;
         private Button btnHexadecimal;
+        private Button btnTodas;
     }
 }

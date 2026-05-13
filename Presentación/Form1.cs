@@ -28,5 +28,12 @@ namespace Presentación
             Transformar minumero = new Transformar(numeroIngresado);
             lblResultado.Text = $"Número hexadecimal: {minumero.Hexadecimal()}";
         }
+
+        private void btnTodas_Click(object sender, EventArgs e)
+        {
+            int numeroIngresado = int.Parse(txtNumeroDecimal.Text);
+            Transformar minumero = new Transformar(numeroIngresado);
+            lblResultado.Text = $"Número binario: {minumero.Binario()}\nNúmero octal: {minumero.Octal()}\nNúmero hexadecimal: {minumero.Hexadecimal()}";
+        }
     }
 }
