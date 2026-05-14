@@ -35,6 +35,12 @@
             btnOctal = new Button();
             btnHexadecimal = new Button();
             btnTodas = new Button();
+            label1 = new Label();
+            txtNumeroConvertir = new TextBox();
+            btnConvertir = new Button();
+            lblResultadoConvertir = new Label();
+            lblSeleccionBase = new Label();
+            cmbBase = new ComboBox();
             SuspendLayout();
             // 
             // btnBinario
@@ -100,11 +106,69 @@
             btnTodas.UseVisualStyleBackColor = true;
             btnTodas.Click += btnTodas_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(791, 69);
+            label1.Name = "label1";
+            label1.Size = new Size(319, 25);
+            label1.TabIndex = 7;
+            label1.Text = "Ingrese número a convertir en decimal:";
+            // 
+            // txtNumeroConvertir
+            // 
+            txtNumeroConvertir.Location = new Point(1153, 63);
+            txtNumeroConvertir.Name = "txtNumeroConvertir";
+            txtNumeroConvertir.Size = new Size(150, 31);
+            txtNumeroConvertir.TabIndex = 8;
+            // 
+            // btnConvertir
+            // 
+            btnConvertir.Location = new Point(791, 108);
+            btnConvertir.Name = "btnConvertir";
+            btnConvertir.Size = new Size(112, 34);
+            btnConvertir.TabIndex = 9;
+            btnConvertir.Text = "Convertir";
+            btnConvertir.UseVisualStyleBackColor = true;
+            btnConvertir.Click += btnConvertir_Click;
+            // 
+            // lblResultadoConvertir
+            // 
+            lblResultadoConvertir.Location = new Point(791, 200);
+            lblResultadoConvertir.Name = "lblResultadoConvertir";
+            lblResultadoConvertir.Size = new Size(657, 162);
+            lblResultadoConvertir.TabIndex = 10;
+            // 
+            // lblSeleccionBase
+            // 
+            lblSeleccionBase.AutoSize = true;
+            lblSeleccionBase.Location = new Point(791, 26);
+            lblSeleccionBase.Name = "lblSeleccionBase";
+            lblSeleccionBase.Size = new Size(154, 25);
+            lblSeleccionBase.TabIndex = 11;
+            lblSeleccionBase.Text = "Seleccione la base";
+            // 
+            // cmbBase
+            // 
+            cmbBase.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbBase.FormattingEnabled = true;
+            cmbBase.Items.AddRange(new object[] { "Binario", "Octal", "Hexadecimal" });
+            cmbBase.Location = new Point(1153, 23);
+            cmbBase.Name = "cmbBase";
+            cmbBase.Size = new Size(182, 33);
+            cmbBase.TabIndex = 12;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1876, 723);
+            Controls.Add(cmbBase);
+            Controls.Add(lblSeleccionBase);
+            Controls.Add(lblResultadoConvertir);
+            Controls.Add(btnConvertir);
+            Controls.Add(txtNumeroConvertir);
+            Controls.Add(label1);
             Controls.Add(btnTodas);
             Controls.Add(btnHexadecimal);
             Controls.Add(btnOctal);
@@ -127,5 +191,11 @@
         private Button btnOctal;
         private Button btnHexadecimal;
         private Button btnTodas;
+        private Label label1;
+        private TextBox txtNumeroConvertir;
+        private Button btnConvertir;
+        private Label lblResultadoConvertir;
+        private Label lblSeleccionBase;
+        private ComboBox cmbBase;
     }
 }
