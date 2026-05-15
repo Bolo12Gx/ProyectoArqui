@@ -4,6 +4,7 @@ namespace Datos
 {
     public class Fase2
     {
+
         public int ConvertirADecimal(string numero, int baseNum)
         {
             int decimalFinal = 0;
