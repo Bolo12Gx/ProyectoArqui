@@ -77,19 +77,16 @@ namespace Presentación
                 {
                     resultado = new Fase2().ConvertirADecimal(numero, 2);
                 }
-
-                // OCTAL
+                //OCTAL
                 else if (opcion == "Octal")
                 {
-                    resultado = new Fase2().ConvertirADecimal(numero, 2);
+                    resultado = new Fase2().ConvertirADecimal(numero, 8);
                 }
-
                 // HEXADECIMAL
                 else if (opcion == "Hexadecimal")
                 {
-                    resultado = new Fase2().ConvertirADecimal(numero, 2);
+                    resultado = new Fase2().ConvertirADecimal(numero, 16);
                 }
-
                 lblResultadoConvertir.Text = "Decimal: " + resultado;
             }
             catch

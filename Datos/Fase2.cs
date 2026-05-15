@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Datos
 {
@@ -11,26 +7,37 @@ namespace Datos
         public int ConvertirADecimal(string numero, int baseNum)
         {
             int decimalFinal = 0;
-
             int potencia = 0;
 
-            // RECORRER DE DERECHA A IZQUIERDA
+            numero = numero.ToUpper();
+
             for (int i = numero.Length - 1; i >= 0; i--)
             {
                 char digito = numero[i];
+                int valor;
 
-                int valor = 0;
-
-                // SI ES NUMERO
+                // NUMEROS
                 if (digito >= '0' && digito <= '9')
                 {
                     valor = digito - '0';
                 }
 
-                // SI ES LETRA HEXADECIMAL
-                else
+                // LETRAS HEXADECIMALES
+                else if (digito >= 'A' && digito <= 'F')
                 {
                     valor = digito - 'A' + 10;
+                }
+
+                // CARACTER INVALIDO
+                else
+                {
+                    throw new Exception("Número inválido");
+                }
+
+                // VALIDAR SEGÚN LA BASE
+                if (valor >= baseNum)
+                {
+                    throw new Exception("El número no pertenece a la base seleccionada");
                 }
 
                 decimalFinal += valor * (int)Math.Pow(baseNum, potencia);
