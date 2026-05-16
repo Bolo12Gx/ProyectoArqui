@@ -108,7 +108,7 @@ namespace Datos
             return new string(Resultado);
         }
 
-        public string RevertirC2(string binarioC2)
+        public static string RevertirC2(string binarioC2)
         {
             int tamano = binarioC2.Length;
             int resultadoDecimal = 0;

@@ -145,7 +145,7 @@ namespace Presentación
                 return;
             }
 
-            if (!int.TryParse(txtNumeroBits.Text.Trim(), out int numeroBits) || numeroBits <= 0)
+            if (!int.TryParse(txtNumbits.Text.Trim(), out int numeroBits) || numeroBits <= 0)
             {
                 MessageBox.Show("Ingrese un número válido de bits (por ejemplo 8, 16, 32).", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
@@ -202,8 +202,8 @@ namespace Presentación
                 return;
             }
 
-            var fase3 = new Fase3(0);
-            string proceso = fase3.RevertirC2(bin);
+            //var fase3 = new Fase3(0);
+            string proceso = Fase3.RevertirC2(bin);
             lblProcesoC2.Text = proceso;
         }
 
