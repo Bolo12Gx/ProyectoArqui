@@ -43,7 +43,7 @@ namespace Presentación
             var fase4 = new Fase4();
             var (resultado, overflow) = fase4.SumarBinarioComplement2(sumando1, sumando2, numeroBits);
 
-            lblResultadoSumar.Text = "Suma: " + resultado + (overflow ? "  -> [OVERFLOW ARITMÉTICO]" : "");
+            lblResultadoSumar.Text = "Suma: " + resultado + (overflow ? "  -> [OVERFLOW ]" : "");
         }
 
         private void btnRestar_Click(object sender, EventArgs e)
@@ -69,7 +69,7 @@ namespace Presentación
             var fase4 = new Fase4();
             var (resultado, overflow) = fase4.RestarBinarioComplement2(minuendo, sustraendo, numeroBits);
 
-            lblResultadoSumar.Text = "Resta: " + resultado + (overflow ? "  -> [OVERFLOW ARITMÉTICO]" : "");
+            lblResultadoSumar.Text = "Resta: " + resultado + (overflow ? "  -> [OVERFLOW]" : "");
         }
 
         private bool IsBinaryString(string s)

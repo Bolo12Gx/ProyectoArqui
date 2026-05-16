@@ -2,15 +2,8 @@
 {
     partial class Fase1Forms
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,10 +15,6 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
             btnTodas = new Button();
@@ -35,103 +24,124 @@
             txtNumeroDecimal = new TextBox();
             lblNumeroDecimal = new Label();
             btnBinario = new Button();
+            lblTittle = new Label();
             SuspendLayout();
             // 
             // btnTodas
             // 
-            btnTodas.BackColor = Color.FromArgb(123, 97, 255);
+            btnTodas.BackColor = Color.FromArgb(124, 58, 237);
             btnTodas.Cursor = Cursors.Hand;
             btnTodas.FlatAppearance.BorderSize = 0;
             btnTodas.FlatStyle = FlatStyle.Flat;
+            btnTodas.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold);
             btnTodas.ForeColor = Color.White;
-            btnTodas.Location = new Point(557, 193);
+            btnTodas.Location = new Point(562, 201);
             btnTodas.Name = "btnTodas";
-            btnTodas.Size = new Size(156, 38);
-            btnTodas.TabIndex = 13;
+            btnTodas.Size = new Size(180, 45);
+            btnTodas.TabIndex = 6;
             btnTodas.Text = "Todas las bases";
             btnTodas.UseVisualStyleBackColor = false;
             btnTodas.Click += btnTodas_Click;
             // 
             // btnHexadecimal
             // 
-            btnHexadecimal.BackColor = Color.FromArgb(255, 140, 0);
+            btnHexadecimal.BackColor = Color.FromArgb(217, 119, 6);
             btnHexadecimal.Cursor = Cursors.Hand;
             btnHexadecimal.FlatAppearance.BorderSize = 0;
             btnHexadecimal.FlatStyle = FlatStyle.Flat;
+            btnHexadecimal.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold);
             btnHexadecimal.ForeColor = Color.White;
-            btnHexadecimal.Location = new Point(372, 193);
+            btnHexadecimal.Location = new Point(382, 201);
             btnHexadecimal.Name = "btnHexadecimal";
-            btnHexadecimal.Size = new Size(156, 38);
-            btnHexadecimal.TabIndex = 12;
+            btnHexadecimal.Size = new Size(160, 45);
+            btnHexadecimal.TabIndex = 5;
             btnHexadecimal.Text = "Hexadecimal";
             btnHexadecimal.UseVisualStyleBackColor = false;
             btnHexadecimal.Click += btnHexadecimal_Click;
             // 
             // btnOctal
             // 
-            btnOctal.BackColor = Color.FromArgb(72, 201, 176);
+            btnOctal.BackColor = Color.FromArgb(13, 148, 136);
             btnOctal.Cursor = Cursors.Hand;
             btnOctal.FlatAppearance.BorderSize = 0;
             btnOctal.FlatStyle = FlatStyle.Flat;
+            btnOctal.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold);
             btnOctal.ForeColor = Color.White;
-            btnOctal.Location = new Point(195, 193);
+            btnOctal.Location = new Point(222, 201);
             btnOctal.Name = "btnOctal";
-            btnOctal.Size = new Size(123, 38);
-            btnOctal.TabIndex = 11;
+            btnOctal.Size = new Size(140, 45);
+            btnOctal.TabIndex = 4;
             btnOctal.Text = "Octal";
             btnOctal.UseVisualStyleBackColor = false;
             btnOctal.Click += btnOctal_Click;
             // 
             // lblResultado
             // 
-            lblResultado.BackColor = Color.WhiteSmoke;
+            lblResultado.BackColor = Color.White;
             lblResultado.BorderStyle = BorderStyle.FixedSingle;
-            lblResultado.ForeColor = Color.FromArgb(30, 30, 30);
-            lblResultado.Location = new Point(34, 296);
+            lblResultado.Font = new Font("Segoe UI Semibold", 13F, FontStyle.Bold);
+            lblResultado.ForeColor = Color.FromArgb(15, 23, 42);
+            lblResultado.Location = new Point(62, 281);
             lblResultado.Name = "lblResultado";
-            lblResultado.Padding = new Padding(9);
-            lblResultado.Size = new Size(722, 181);
-            lblResultado.TabIndex = 10;
+            lblResultado.Padding = new Padding(15);
+            lblResultado.Size = new Size(680, 180);
+            lblResultado.TabIndex = 3;
             // 
             // txtNumeroDecimal
             // 
             txtNumeroDecimal.BackColor = Color.White;
             txtNumeroDecimal.BorderStyle = BorderStyle.FixedSingle;
-            txtNumeroDecimal.Location = new Point(291, 98);
+            txtNumeroDecimal.Font = new Font("Segoe UI", 12F);
+            txtNumeroDecimal.ForeColor = Color.FromArgb(15, 23, 42);
+            txtNumeroDecimal.Location = new Point(352, 119);
             txtNumeroDecimal.Name = "txtNumeroDecimal";
-            txtNumeroDecimal.Size = new Size(165, 31);
-            txtNumeroDecimal.TabIndex = 9;
+            txtNumeroDecimal.Size = new Size(250, 39);
+            txtNumeroDecimal.TabIndex = 2;
             // 
             // lblNumeroDecimal
             // 
             lblNumeroDecimal.AutoSize = true;
-            lblNumeroDecimal.ForeColor = Color.FromArgb(40, 40, 40);
-            lblNumeroDecimal.Location = new Point(34, 101);
+            lblNumeroDecimal.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
+            lblNumeroDecimal.ForeColor = Color.FromArgb(51, 65, 85);
+            lblNumeroDecimal.Location = new Point(62, 121);
             lblNumeroDecimal.Name = "lblNumeroDecimal";
-            lblNumeroDecimal.Size = new Size(207, 25);
-            lblNumeroDecimal.TabIndex = 8;
+            lblNumeroDecimal.Size = new Size(283, 32);
+            lblNumeroDecimal.TabIndex = 1;
             lblNumeroDecimal.Text = "Ingrese número decimal:";
             // 
             // btnBinario
             // 
-            btnBinario.BackColor = Color.FromArgb(30, 144, 255);
+            btnBinario.BackColor = Color.FromArgb(37, 99, 235);
             btnBinario.Cursor = Cursors.Hand;
             btnBinario.FlatAppearance.BorderSize = 0;
             btnBinario.FlatStyle = FlatStyle.Flat;
+            btnBinario.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold);
             btnBinario.ForeColor = Color.White;
-            btnBinario.Location = new Point(34, 193);
+            btnBinario.Location = new Point(62, 201);
             btnBinario.Name = "btnBinario";
-            btnBinario.Size = new Size(123, 38);
-            btnBinario.TabIndex = 7;
+            btnBinario.Size = new Size(140, 45);
+            btnBinario.TabIndex = 0;
             btnBinario.Text = "Binario";
             btnBinario.UseVisualStyleBackColor = false;
             btnBinario.Click += btnBinario_Click;
+            // 
+            // lblTittle
+            // 
+            lblTittle.AutoSize = true;
+            lblTittle.Font = new Font("Segoe UI Black", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTittle.Location = new Point(352, 9);
+            lblTittle.Name = "lblTittle";
+            lblTittle.Size = new Size(798, 48);
+            lblTittle.TabIndex = 7;
+            lblTittle.Text = "Conversiones de Base Decimal a Otras Bases";
             // 
             // Fase1Forms
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1215, 694);
+            BackColor = Color.FromArgb(245, 247, 250);
+            ClientSize = new Size(1756, 809);
+            Controls.Add(lblTittle);
             Controls.Add(btnTodas);
             Controls.Add(btnHexadecimal);
             Controls.Add(btnOctal);
@@ -140,19 +150,20 @@
             Controls.Add(lblNumeroDecimal);
             Controls.Add(btnBinario);
             Name = "Fase1Forms";
-            Text = "Fase1Forms";
+            Text = "Fase 1 - Conversión Decimal a Bases";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button btnTodas;
-        private Button btnHexadecimal;
-        private Button btnOctal;
-        private Label lblResultado;
-        private TextBox txtNumeroDecimal;
-        private Label lblNumeroDecimal;
-        private Button btnBinario;
+        private System.Windows.Forms.Button btnTodas;
+        private System.Windows.Forms.Button btnHexadecimal;
+        private System.Windows.Forms.Button btnOctal;
+        private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.TextBox txtNumeroDecimal;
+        private System.Windows.Forms.Label lblNumeroDecimal;
+        private System.Windows.Forms.Button btnBinario;
+        private Label lblTittle;
     }
 }
