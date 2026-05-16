@@ -1,16 +1,16 @@
 ﻿namespace Datos
 {
-    public class Transformar
+    public class Fase1
     {
         private int numero;
 
 
 
-        public Transformar(int numero)
+        public Fase1(int numero)
         {
             this.numero = numero;
         }
-        public Transformar() { }
+        public Fase1() { }
         // Método privado que centraliza la conversión a cualquier base
         private string ConvertirEnBase(int baseNum, bool usarHex = false)
         {

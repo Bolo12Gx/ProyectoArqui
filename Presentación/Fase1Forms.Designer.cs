@@ -1,6 +1,6 @@
 ﻿namespace Presentación
 {
-    partial class Fase1
+    partial class Fase1Forms
     {
         /// <summary>
         /// Required designer variable.
@@ -44,12 +44,13 @@
             btnTodas.FlatAppearance.BorderSize = 0;
             btnTodas.FlatStyle = FlatStyle.Flat;
             btnTodas.ForeColor = Color.White;
-            btnTodas.Location = new Point(583, 189);
+            btnTodas.Location = new Point(557, 193);
             btnTodas.Name = "btnTodas";
             btnTodas.Size = new Size(156, 38);
             btnTodas.TabIndex = 13;
             btnTodas.Text = "Todas las bases";
             btnTodas.UseVisualStyleBackColor = false;
+            btnTodas.Click += btnTodas_Click;
             // 
             // btnHexadecimal
             // 
@@ -58,12 +59,13 @@
             btnHexadecimal.FlatAppearance.BorderSize = 0;
             btnHexadecimal.FlatStyle = FlatStyle.Flat;
             btnHexadecimal.ForeColor = Color.White;
-            btnHexadecimal.Location = new Point(398, 189);
+            btnHexadecimal.Location = new Point(372, 193);
             btnHexadecimal.Name = "btnHexadecimal";
             btnHexadecimal.Size = new Size(156, 38);
             btnHexadecimal.TabIndex = 12;
             btnHexadecimal.Text = "Hexadecimal";
             btnHexadecimal.UseVisualStyleBackColor = false;
+            btnHexadecimal.Click += btnHexadecimal_Click;
             // 
             // btnOctal
             // 
@@ -72,19 +74,20 @@
             btnOctal.FlatAppearance.BorderSize = 0;
             btnOctal.FlatStyle = FlatStyle.Flat;
             btnOctal.ForeColor = Color.White;
-            btnOctal.Location = new Point(221, 189);
+            btnOctal.Location = new Point(195, 193);
             btnOctal.Name = "btnOctal";
             btnOctal.Size = new Size(123, 38);
             btnOctal.TabIndex = 11;
             btnOctal.Text = "Octal";
             btnOctal.UseVisualStyleBackColor = false;
+            btnOctal.Click += btnOctal_Click;
             // 
             // lblResultado
             // 
             lblResultado.BackColor = Color.WhiteSmoke;
             lblResultado.BorderStyle = BorderStyle.FixedSingle;
             lblResultado.ForeColor = Color.FromArgb(30, 30, 30);
-            lblResultado.Location = new Point(60, 292);
+            lblResultado.Location = new Point(34, 296);
             lblResultado.Name = "lblResultado";
             lblResultado.Padding = new Padding(9);
             lblResultado.Size = new Size(722, 181);
@@ -94,7 +97,7 @@
             // 
             txtNumeroDecimal.BackColor = Color.White;
             txtNumeroDecimal.BorderStyle = BorderStyle.FixedSingle;
-            txtNumeroDecimal.Location = new Point(317, 94);
+            txtNumeroDecimal.Location = new Point(291, 98);
             txtNumeroDecimal.Name = "txtNumeroDecimal";
             txtNumeroDecimal.Size = new Size(165, 31);
             txtNumeroDecimal.TabIndex = 9;
@@ -103,7 +106,7 @@
             // 
             lblNumeroDecimal.AutoSize = true;
             lblNumeroDecimal.ForeColor = Color.FromArgb(40, 40, 40);
-            lblNumeroDecimal.Location = new Point(60, 97);
+            lblNumeroDecimal.Location = new Point(34, 101);
             lblNumeroDecimal.Name = "lblNumeroDecimal";
             lblNumeroDecimal.Size = new Size(207, 25);
             lblNumeroDecimal.TabIndex = 8;
@@ -116,18 +119,19 @@
             btnBinario.FlatAppearance.BorderSize = 0;
             btnBinario.FlatStyle = FlatStyle.Flat;
             btnBinario.ForeColor = Color.White;
-            btnBinario.Location = new Point(60, 189);
+            btnBinario.Location = new Point(34, 193);
             btnBinario.Name = "btnBinario";
             btnBinario.Size = new Size(123, 38);
             btnBinario.TabIndex = 7;
             btnBinario.Text = "Binario";
             btnBinario.UseVisualStyleBackColor = false;
+            btnBinario.Click += btnBinario_Click;
             // 
-            // Fase1
+            // Fase1Forms
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1749, 681);
+            ClientSize = new Size(1215, 694);
             Controls.Add(btnTodas);
             Controls.Add(btnHexadecimal);
             Controls.Add(btnOctal);
@@ -135,8 +139,8 @@
             Controls.Add(txtNumeroDecimal);
             Controls.Add(lblNumeroDecimal);
             Controls.Add(btnBinario);
-            Name = "Fase1";
-            Text = "Fase1";
+            Name = "Fase1Forms";
+            Text = "Fase1Forms";
             ResumeLayout(false);
             PerformLayout();
         }
