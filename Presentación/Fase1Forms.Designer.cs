@@ -35,9 +35,9 @@
             btnTodas.FlatStyle = FlatStyle.Flat;
             btnTodas.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold);
             btnTodas.ForeColor = Color.White;
-            btnTodas.Location = new Point(562, 201);
+            btnTodas.Location = new Point(1200, 201); //
             btnTodas.Name = "btnTodas";
-            btnTodas.Size = new Size(180, 45);
+            btnTodas.Size = new Size(240, 45); //
             btnTodas.TabIndex = 6;
             btnTodas.Text = "Todas las bases";
             btnTodas.UseVisualStyleBackColor = false;
@@ -51,9 +51,9 @@
             btnHexadecimal.FlatStyle = FlatStyle.Flat;
             btnHexadecimal.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold);
             btnHexadecimal.ForeColor = Color.White;
-            btnHexadecimal.Location = new Point(382, 201);
+            btnHexadecimal.Location = new Point(900, 201);
             btnHexadecimal.Name = "btnHexadecimal";
-            btnHexadecimal.Size = new Size(160, 45);
+            btnHexadecimal.Size = new Size(240, 45);
             btnHexadecimal.TabIndex = 5;
             btnHexadecimal.Text = "Hexadecimal";
             btnHexadecimal.UseVisualStyleBackColor = false;
@@ -67,9 +67,9 @@
             btnOctal.FlatStyle = FlatStyle.Flat;
             btnOctal.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold);
             btnOctal.ForeColor = Color.White;
-            btnOctal.Location = new Point(222, 201);
+            btnOctal.Location = new Point(600, 201);
             btnOctal.Name = "btnOctal";
-            btnOctal.Size = new Size(140, 45);
+            btnOctal.Size = new Size(240, 45);
             btnOctal.TabIndex = 4;
             btnOctal.Text = "Octal";
             btnOctal.UseVisualStyleBackColor = false;
@@ -81,7 +81,7 @@
             lblResultado.BorderStyle = BorderStyle.FixedSingle;
             lblResultado.Font = new Font("Segoe UI Semibold", 13F, FontStyle.Bold);
             lblResultado.ForeColor = Color.FromArgb(15, 23, 42);
-            lblResultado.Location = new Point(62, 281);
+            lblResultado.Location = new Point(500, 300);
             lblResultado.Name = "lblResultado";
             lblResultado.Padding = new Padding(15);
             lblResultado.Size = new Size(680, 180);
@@ -93,9 +93,9 @@
             txtNumeroDecimal.BorderStyle = BorderStyle.FixedSingle;
             txtNumeroDecimal.Font = new Font("Segoe UI", 12F);
             txtNumeroDecimal.ForeColor = Color.FromArgb(15, 23, 42);
-            txtNumeroDecimal.Location = new Point(352, 119);
+            txtNumeroDecimal.Location = new Point(800, 119);
             txtNumeroDecimal.Name = "txtNumeroDecimal";
-            txtNumeroDecimal.Size = new Size(250, 39);
+            txtNumeroDecimal.Size = new Size(300, 39);
             txtNumeroDecimal.TabIndex = 2;
             // 
             // lblNumeroDecimal
@@ -103,7 +103,7 @@
             lblNumeroDecimal.AutoSize = true;
             lblNumeroDecimal.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
             lblNumeroDecimal.ForeColor = Color.FromArgb(51, 65, 85);
-            lblNumeroDecimal.Location = new Point(62, 121);
+            lblNumeroDecimal.Location = new Point(400, 121);
             lblNumeroDecimal.Name = "lblNumeroDecimal";
             lblNumeroDecimal.Size = new Size(283, 32);
             lblNumeroDecimal.TabIndex = 1;
@@ -117,9 +117,9 @@
             btnBinario.FlatStyle = FlatStyle.Flat;
             btnBinario.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold);
             btnBinario.ForeColor = Color.White;
-            btnBinario.Location = new Point(62, 201);
+            btnBinario.Location = new Point(300, 201);
             btnBinario.Name = "btnBinario";
-            btnBinario.Size = new Size(140, 45);
+            btnBinario.Size = new Size(240, 45);
             btnBinario.TabIndex = 0;
             btnBinario.Text = "Binario";
             btnBinario.UseVisualStyleBackColor = false;
@@ -129,7 +129,7 @@
             // 
             lblTittle.AutoSize = true;
             lblTittle.Font = new Font("Segoe UI Black", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTittle.Location = new Point(352, 9);
+            lblTittle.Location = new Point(450, 9);
             lblTittle.Name = "lblTittle";
             lblTittle.Size = new Size(798, 48);
             lblTittle.TabIndex = 7;

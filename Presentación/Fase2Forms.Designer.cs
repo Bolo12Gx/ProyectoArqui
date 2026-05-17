@@ -33,7 +33,7 @@
             cmbBase.Font = new Font("Segoe UI", 11F);
             cmbBase.FormattingEnabled = true;
             cmbBase.Items.AddRange(new object[] { "Binario", "Octal", "Hexadecimal" });
-            cmbBase.Location = new Point(387, 132);
+            cmbBase.Location = new Point(900, 132);
             cmbBase.Name = "cmbBase";
             cmbBase.Size = new Size(250, 38);
             cmbBase.TabIndex = 12;
@@ -43,7 +43,7 @@
             lblSeleccionBase.AutoSize = true;
             lblSeleccionBase.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
             lblSeleccionBase.ForeColor = Color.FromArgb(51, 65, 85);
-            lblSeleccionBase.Location = new Point(67, 134);
+            lblSeleccionBase.Location = new Point(610, 134);
             lblSeleccionBase.Name = "lblSeleccionBase";
             lblSeleccionBase.Size = new Size(217, 32);
             lblSeleccionBase.TabIndex = 11;
@@ -55,7 +55,7 @@
             lblResultadoConvertir.BorderStyle = BorderStyle.FixedSingle;
             lblResultadoConvertir.Font = new Font("Segoe UI Semibold", 13F, FontStyle.Bold);
             lblResultadoConvertir.ForeColor = Color.FromArgb(15, 23, 42);
-            lblResultadoConvertir.Location = new Point(67, 334);
+            lblResultadoConvertir.Location = new Point(580, 334);
             lblResultadoConvertir.Name = "lblResultadoConvertir";
             lblResultadoConvertir.Padding = new Padding(15);
             lblResultadoConvertir.Size = new Size(570, 150);
@@ -69,7 +69,7 @@
             btnConvertir.FlatStyle = FlatStyle.Flat;
             btnConvertir.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold);
             btnConvertir.ForeColor = Color.White;
-            btnConvertir.Location = new Point(67, 264);
+            btnConvertir.Location = new Point(800, 264);
             btnConvertir.Name = "btnConvertir";
             btnConvertir.Size = new Size(160, 45);
             btnConvertir.TabIndex = 9;
@@ -83,7 +83,7 @@
             txtNumeroConvertir.BorderStyle = BorderStyle.FixedSingle;
             txtNumeroConvertir.Font = new Font("Segoe UI", 12F);
             txtNumeroConvertir.ForeColor = Color.FromArgb(15, 23, 42);
-            txtNumeroConvertir.Location = new Point(387, 192);
+            txtNumeroConvertir.Location = new Point(900, 192);
             txtNumeroConvertir.Name = "txtNumeroConvertir";
             txtNumeroConvertir.Size = new Size(250, 39);
             txtNumeroConvertir.TabIndex = 14;
@@ -93,7 +93,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
             label1.ForeColor = Color.FromArgb(51, 65, 85);
-            label1.Location = new Point(67, 194);
+            label1.Location = new Point(500, 194);
             label1.Name = "label1";
             label1.Size = new Size(318, 32);
             label1.TabIndex = 13;
@@ -103,7 +103,7 @@
             // 
             lblTittle.AutoSize = true;
             lblTittle.Font = new Font("Segoe UI Black", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTittle.Location = new Point(387, 9);
+            lblTittle.Location = new Point(500, 9);
             lblTittle.Name = "lblTittle";
             lblTittle.Size = new Size(669, 48);
             lblTittle.TabIndex = 15;

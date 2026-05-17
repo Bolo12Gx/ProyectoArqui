@@ -34,7 +34,7 @@
             lblProcesoC2.BorderStyle = BorderStyle.FixedSingle;
             lblProcesoC2.Font = new Font("Segoe UI", 11F);
             lblProcesoC2.ForeColor = Color.FromArgb(51, 65, 85);
-            lblProcesoC2.Location = new Point(61, 390);
+            lblProcesoC2.Location = new Point(580, 420);
             lblProcesoC2.Name = "lblProcesoC2";
             lblProcesoC2.Padding = new Padding(15);
             lblProcesoC2.Size = new Size(650, 150);
@@ -47,10 +47,10 @@
             lblResultadoC2.BorderStyle = BorderStyle.FixedSingle;
             lblResultadoC2.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
             lblResultadoC2.ForeColor = Color.FromArgb(15, 23, 42);
-            lblResultadoC2.Location = new Point(61, 325);
+            lblResultadoC2.Location = new Point(580, 325);
             lblResultadoC2.Name = "lblResultadoC2";
             lblResultadoC2.Padding = new Padding(10);
-            lblResultadoC2.Size = new Size(650, 50);
+            lblResultadoC2.Size = new Size(650, 65);
             lblResultadoC2.TabIndex = 24;
             lblResultadoC2.Text = "Complemento a 2: ";
             // 
@@ -62,11 +62,11 @@
             btnRevertirC2.FlatStyle = FlatStyle.Flat;
             btnRevertirC2.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold);
             btnRevertirC2.ForeColor = Color.White;
-            btnRevertirC2.Location = new Point(311, 255);
+            btnRevertirC2.Location = new Point(600, 255);
             btnRevertirC2.Name = "btnRevertirC2";
-            btnRevertirC2.Size = new Size(230, 45);
+            btnRevertirC2.Size = new Size(300, 45);
             btnRevertirC2.TabIndex = 23;
-            btnRevertirC2.Text = "Revertir Ca2 -> Decimal";
+            btnRevertirC2.Text = "Revertir C2 -> Decimal";
             btnRevertirC2.UseVisualStyleBackColor = false;
             btnRevertirC2.Click += btnRevertirC2_Click;
             // 
@@ -78,11 +78,11 @@
             btnComplemento2.FlatStyle = FlatStyle.Flat;
             btnComplemento2.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold);
             btnComplemento2.ForeColor = Color.White;
-            btnComplemento2.Location = new Point(61, 255);
+            btnComplemento2.Location = new Point(1000, 255); //
             btnComplemento2.Name = "btnComplemento2";
             btnComplemento2.Size = new Size(230, 45);
             btnComplemento2.TabIndex = 22;
-            btnComplemento2.Text = "Calcular C a 2";
+            btnComplemento2.Text = "Calcular C2";
             btnComplemento2.UseVisualStyleBackColor = false;
             btnComplemento2.Click += btnComplemento2_Click;
             // 
@@ -92,7 +92,7 @@
             txtNumeroBits.BorderStyle = BorderStyle.FixedSingle;
             txtNumeroBits.Font = new Font("Segoe UI", 11F);
             txtNumeroBits.ForeColor = Color.FromArgb(15, 23, 42);
-            txtNumeroBits.Location = new Point(341, 188);
+            txtNumeroBits.Location = new Point(980, 188);
             txtNumeroBits.Name = "txtNumeroBits";
             txtNumeroBits.Size = new Size(200, 37);
             txtNumeroBits.TabIndex = 21;
@@ -103,7 +103,7 @@
             lblBits.AutoSize = true;
             lblBits.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold);
             lblBits.ForeColor = Color.FromArgb(51, 65, 85);
-            lblBits.Location = new Point(61, 190);
+            lblBits.Location = new Point(650, 190);
             lblBits.Name = "lblBits";
             lblBits.Size = new Size(210, 30);
             lblBits.TabIndex = 20;
@@ -115,7 +115,7 @@
             txtNumeroDecimal.BorderStyle = BorderStyle.FixedSingle;
             txtNumeroDecimal.Font = new Font("Segoe UI", 11F);
             txtNumeroDecimal.ForeColor = Color.FromArgb(15, 23, 42);
-            txtNumeroDecimal.Location = new Point(341, 128);
+            txtNumeroDecimal.Location = new Point(980, 128); //
             txtNumeroDecimal.Name = "txtNumeroDecimal";
             txtNumeroDecimal.Size = new Size(200, 37);
             txtNumeroDecimal.TabIndex = 33;
@@ -125,9 +125,9 @@
             lblNumeroDecimal.AutoSize = true;
             lblNumeroDecimal.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold);
             lblNumeroDecimal.ForeColor = Color.FromArgb(51, 65, 85);
-            lblNumeroDecimal.Location = new Point(61, 130);
+            lblNumeroDecimal.Location = new Point(600, 130); //
             lblNumeroDecimal.Name = "lblNumeroDecimal";
-            lblNumeroDecimal.Size = new Size(258, 30);
+            lblNumeroDecimal.Size = new Size(300, 30);
             lblNumeroDecimal.TabIndex = 32;
             lblNumeroDecimal.Text = "Ingrese número decimal:";
             // 
@@ -135,7 +135,7 @@
             // 
             lblTittle.AutoSize = true;
             lblTittle.Font = new Font("Segoe UI Black", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTittle.Location = new Point(387, 9);
+            lblTittle.Location = new Point(520, 9);
             lblTittle.Name = "lblTittle";
             lblTittle.Size = new Size(740, 48);
             lblTittle.TabIndex = 34;

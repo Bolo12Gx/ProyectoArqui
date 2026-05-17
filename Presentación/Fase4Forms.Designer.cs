@@ -35,7 +35,7 @@
             txtNumbits.BorderStyle = BorderStyle.FixedSingle;
             txtNumbits.Font = new Font("Segoe UI", 11F);
             txtNumbits.ForeColor = Color.FromArgb(15, 23, 42);
-            txtNumbits.Location = new Point(284, 116);
+            txtNumbits.Location = new Point(980, 116);
             txtNumbits.Name = "txtNumbits";
             txtNumbits.Size = new Size(200, 37);
             txtNumbits.TabIndex = 27;
@@ -46,7 +46,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold);
             label2.ForeColor = Color.FromArgb(51, 65, 85);
-            label2.Location = new Point(54, 118);
+            label2.Location = new Point(650, 118);
             label2.Name = "label2";
             label2.Size = new Size(210, 30);
             label2.TabIndex = 26;
@@ -58,10 +58,10 @@
             lblResultadoSumar.BorderStyle = BorderStyle.FixedSingle;
             lblResultadoSumar.Font = new Font("Segoe UI Semibold", 13F, FontStyle.Bold);
             lblResultadoSumar.ForeColor = Color.FromArgb(15, 23, 42);
-            lblResultadoSumar.Location = new Point(54, 368);
+            lblResultadoSumar.Location = new Point(600, 368);
             lblResultadoSumar.Name = "lblResultadoSumar";
             lblResultadoSumar.Padding = new Padding(15);
-            lblResultadoSumar.Size = new Size(650, 160);
+            lblResultadoSumar.Size = new Size(640, 160);
             lblResultadoSumar.TabIndex = 19;
             // 
             // btnRestar
@@ -72,9 +72,9 @@
             btnRestar.FlatStyle = FlatStyle.Flat;
             btnRestar.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold);
             btnRestar.ForeColor = Color.White;
-            btnRestar.Location = new Point(214, 298);
+            btnRestar.Location = new Point(1000, 298);
             btnRestar.Name = "btnRestar";
-            btnRestar.Size = new Size(140, 45);
+            btnRestar.Size = new Size(240, 45);
             btnRestar.TabIndex = 18;
             btnRestar.Text = "Restar";
             btnRestar.UseVisualStyleBackColor = false;
@@ -88,9 +88,9 @@
             btnSumar.FlatStyle = FlatStyle.Flat;
             btnSumar.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold);
             btnSumar.ForeColor = Color.White;
-            btnSumar.Location = new Point(54, 298);
+            btnSumar.Location = new Point(580, 298);
             btnSumar.Name = "btnSumar";
-            btnSumar.Size = new Size(140, 45);
+            btnSumar.Size = new Size(240, 45);
             btnSumar.TabIndex = 17;
             btnSumar.Text = "Sumar";
             btnSumar.UseVisualStyleBackColor = false;
@@ -102,7 +102,7 @@
             txtSumando2.BorderStyle = BorderStyle.FixedSingle;
             txtSumando2.Font = new Font("Segoe UI", 11F);
             txtSumando2.ForeColor = Color.FromArgb(15, 23, 42);
-            txtSumando2.Location = new Point(284, 236);
+            txtSumando2.Location = new Point(980, 236);
             txtSumando2.Name = "txtSumando2";
             txtSumando2.Size = new Size(200, 37);
             txtSumando2.TabIndex = 16;
@@ -112,7 +112,7 @@
             lblSumando2.AutoSize = true;
             lblSumando2.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold);
             lblSumando2.ForeColor = Color.FromArgb(51, 65, 85);
-            lblSumando2.Location = new Point(54, 238);
+            lblSumando2.Location = new Point(650, 238);
             lblSumando2.Name = "lblSumando2";
             lblSumando2.Size = new Size(230, 30);
             lblSumando2.TabIndex = 15;
@@ -124,7 +124,7 @@
             txtSumando1.BorderStyle = BorderStyle.FixedSingle;
             txtSumando1.Font = new Font("Segoe UI", 11F);
             txtSumando1.ForeColor = Color.FromArgb(15, 23, 42);
-            txtSumando1.Location = new Point(284, 176);
+            txtSumando1.Location = new Point(980, 176);
             txtSumando1.Name = "txtSumando1";
             txtSumando1.Size = new Size(200, 37);
             txtSumando1.TabIndex = 14;
@@ -134,7 +134,7 @@
             lblSumando1.AutoSize = true;
             lblSumando1.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold);
             lblSumando1.ForeColor = Color.FromArgb(51, 65, 85);
-            lblSumando1.Location = new Point(54, 178);
+            lblSumando1.Location = new Point(650, 178);
             lblSumando1.Name = "lblSumando1";
             lblSumando1.Size = new Size(227, 30);
             lblSumando1.TabIndex = 28;
@@ -144,7 +144,7 @@
             // 
             lblTittle.AutoSize = true;
             lblTittle.Font = new Font("Segoe UI Black", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTittle.Location = new Point(427, 9);
+            lblTittle.Location = new Point(500, 9);
             lblTittle.Name = "lblTittle";
             lblTittle.Size = new Size(797, 48);
             lblTittle.TabIndex = 29;
