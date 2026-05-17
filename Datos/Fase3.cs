@@ -5,8 +5,6 @@ namespace Datos
     public class Fase3
     {
         int numero;
-        int numeroTemp;
-        string numeroBits;
         public Fase3(int numero)
         {
             this.numero = numero;
@@ -32,7 +30,6 @@ namespace Datos
 
         public string Binario()
         {
-            numeroTemp = numero;
             return ConvertirPositivoABinario(numero);
         }
 
@@ -40,7 +37,6 @@ namespace Datos
         public string Complemento2(string numeroBits)
         {
             int numeroC = int.Parse(numeroBits);
-            numeroTemp = numero;
 
             if (numero == 0)
             {
@@ -58,7 +54,7 @@ namespace Datos
             else
             {
                 string binarioPositivo = ConvertirPositivoABinario(numero).PadLeft(numeroC, '0');
-                // Si el valor positivo no cabe (el bit más significativo es 1) se considera overflow según la regla de N bits
+                // El overflow real en Ca2 ocurre si el MSB conmuta a '1' o si la magnitud excede N bits
                 if (binarioPositivo.Length > numeroC)
                 {
                     return binarioPositivo + " ->[OVERFLOW]";
@@ -73,9 +69,9 @@ namespace Datos
             char[] C1 = binario.ToCharArray();
             for (int i = 0; i < C1.Length; i++)
             {
-                C1[i] = (C1[i] == '0') ? '1' : '0';
+                C1[i] = (C1[i] == '0') ? '1' : '0'; //1100
             }
-            return new string(C1);
+            return new string(C1);//0011 
         }
 
         // Suma binaria simple (sin señalización de overflow extra). Si hay acarreo fuera del MSB se ignora (comportamiento wrap-around típico en Ca2).
@@ -93,15 +89,15 @@ namespace Datos
 
             for (int i = longitudMaxima - 1; i >= 0; i--)
             {
-                int bit1 = (Sumando1[i] == '1') ? 1 : 0;
-                int bit2 = (Sumando2[i] == '1') ? 1 : 0;
+                int bit1 = (Sumando1[i] == '1') ? 1 : 0; //0
+                int bit2 = (Sumando2[i] == '1') ? 1 : 0; //0
 
-                int sumaTotal = bit1 + bit2 + acarreo;
+                int sumaTotal = bit1 + bit2 + acarreo; //1
 
-                int bitResultado = sumaTotal % 2;
+                int bitResultado = sumaTotal % 2; //1
 
                 Resultado[i] = (bitResultado == 1) ? '1' : '0';
-                acarreo = sumaTotal / 2;
+                acarreo = sumaTotal / 2; //0
             }
 
             // Ignoramos el acarreo final: wrap-around en complemento a dos
